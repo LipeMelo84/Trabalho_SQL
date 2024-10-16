@@ -1,0 +1,15 @@
+Correção de do trabalho
+1. 1º Etapa
+- As informações sobre as cardinalidades estão incorretas. Ex: Cardinalidade: Dependente (0, n) - (1,1) Passageiro (1,1) - Reserva (0,n) - Assento (0,n) - Voo (1,1)
+- As relações de relacionamento estão incorretas. Ex: Voo contem Assentos // Passageiro possui dependentes
+- Faltou detalhar os atributos de 'Endereço'
+- Atenção a qualidade do MER (mesmo com zoom os dados não estão bem legíveis)
+
+1. 2º Etapa
+- Nem todos os atributos foram definidos como 'Not Null'
+- AlunoCurso não tem PK
+- GradeDisciplina não tem PK
+- Historico não tem PK
+
+6.
+- O join correto seria apenas entre Curso e AlunoCurso
